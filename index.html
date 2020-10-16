@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 
 
@@ -22,14 +23,15 @@
     <style>
         .container {
             background-image: url('https://ld-wp73.template-help.com/wordpress/prod_18709/v2/wp-content/uploads/2020/06/bg.png');
-            height: 100%;
+            height: 80%;
+            width: 85%;
             background-position: center;
             background-repeat: no-repeat;
         }
         
         .body {
             background-image: url('https://ld-wp.template-help.com/wordpress_free/23563/wp-content/uploads/2019/04/bg-121.jpg');
-            height: 100%;
+            height: 80%;
             width: 85%;
             background-position: center;
             background-repeat: no-repeat;
@@ -40,7 +42,7 @@
         
         .container3 {
             background-image: url('https://ld-wp.template-help.com/wordpress_free/23563/wp-content/uploads/2019/04/background-09-1920x900.jpg');
-            height: 100%;
+            height: 80%;
             width: 85%;
             background-repeat: no-repeat;
             margin-left: auto;
@@ -54,13 +56,15 @@
             color: white;
         }
         
-        .navbar-default {
+        #inverse {
             background: none;
             border: none;
         }
         
         .navbar-nav {
             float: right;
+            padding-top: 10PX;
+            font-size: 10px;
         }
         
         .form-group {
@@ -78,10 +82,14 @@
             flex: 1;
         }
         
+        #al:hover {
+            text-decoration: underline;
+        }
+        
         #bt {
             border-radius: 10px 40px 40px 10px;
             color: white;
-            padding: 10px;
+            padding: 10px 50px;
         }
         
         .inputField {
@@ -122,7 +130,7 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-default">
+        <nav id="inverse" class="navbar navbar-inverse">
             <div class="container-fluid">
 
                 <div class="navbar-header">
@@ -136,12 +144,12 @@
                 <div class="collapse navbar-collapse" id="navbar">
 
                     <ul class="nav navbar-nav">
-                        <li id="al"><a href="#" style="color: white;">HOME</a></li>
-                        <li id="al"><a href="#" style="color: white;">TOURS</a></li>
-                        <li id="al"><a href="#" style="color: white;">ABOUT</a></li>
-                        <li id="al"><a href="#" style="color: white;">GALLERY</a></li>
-                        <li id="al"><a href="#" style="color: white;">BLOG</a></li>
-                        <li id="al"><a href="#" style="color: white;">CONTACTS</a></li>
+                        <li id="al"><a href="index.html" style="color: white;"><strong>HOME</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>TOURS</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>ABOUT</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>GALLARY</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>BLOG</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>CONTACTS</strong></a></li>
                     </ul>
                 </div>
             </div>
@@ -155,7 +163,7 @@
         <div class="form-group">
             <div class="input-group">
                 <input type="text" placeholder="Enter Keyword" class="inputField">
-                <button type="button" id="bt" style="background-color: rgba(60, 4, 112, 0.986);">Search</button>
+                <button type="button" id="bt" style="background-color: rgb(47, 7, 85);">SEARCH</button>
             </div>
         </div>
         <button style="padding:5px;  margin-top: 100px; color: white; background-color: rgb(0, 162, 255); font-size: large; float: right;"><strong id="chat">Chat Now</strong><span  class="glyphicon glyphicon-comment" style="padding-left: 20px;"></button>
@@ -182,12 +190,12 @@
                 <div class="collapse navbar-collapse" id="navbar1">
 
                     <ul class="nav navbar-nav">
-                        <li id="al"><a href="#" style="color: white;">HOME</a></li>
-                        <li id="al"><a href="#" style="color: white;">TOURS</a></li>
-                        <li id="al"><a href="#" style="color: white;">ABOUT</a></li>
-                        <li id="al"><a href="#" style="color: white;">GALLERY</a></li>
-                        <li id="al"><a href="#" style="color: white;">BLOG</a></li>
-                        <li id="al"><a href="#" style="color: white;">CONTACTS</a></li>
+                        <li id="al"><a href="index.html" style="color: white;"><strong>HOME</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>TOURS</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>ABOUT</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>GALLARY</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>BLOG</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>CONTACTS</strong></a></li>
                     </ul>
                 </div>
             </div>
@@ -213,8 +221,7 @@
 
                         <div class="w3-panel w3-card-2" id="wid2" style="background-color: white;">
 
-                            <button id="bor"><span  class="fa fa-badge
-                                " aria-hidden="true"></span></button>
+                            <button id="bor"><span class="fas fa-medal" aria-hidden="true"></span></button>
                             <h4 id="head" style="font-size:17px;"><strong>WIDE VARIETY OF DESTINATIONS</strong></h4><br>
 
                             <P>With Travelino, you'll find a perfect destination among hundreds available.</P>
@@ -288,12 +295,12 @@
                 <div class="collapse navbar-collapse" id="navbar2">
 
                     <ul class="nav navbar-nav">
-                        <li id="al"><a href="#" style="color: white;">HOME</a></li>
-                        <li id="al"><a href="#" style="color: white;">TOURS</a></li>
-                        <li id="al"><a href="#" style="color: white;">ABOUT</a></li>
-                        <li id="al"><a href="#" style="color: white;">GALLERY</a></li>
-                        <li id="al"><a href="#" style="color: white;">BLOG</a></li>
-                        <li id="al"><a href="#" style="color: white;">CONTACTS</a></li>
+                        <li id="al"><a href="index.html" style="color: white;"><strong>HOME</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>TOURS</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>ABOUT</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>GALLARY</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>BLOG</strong></a></li>
+                        <li id="al"><a href="#" style="color: white;"><strong>CONTACTS</strong></a></li>
                     </ul>
                 </div>
             </div>
@@ -335,12 +342,13 @@
                 <h2 style="text-align:center; color: white;"> over 450 Cheap Flights</h2>
 
 
-                <button id="btnn" style="border-radius: 25px; background-color: rgb(119, 11, 161); color: white; padding: 10px; margin-left: 70%;"><strong>FIND YOUR FLIGHT</strong></button><br><br><br><br><br><br><br><br><br>
+                <button id="btnn" style="border-radius: 25px;  background-color: rgb(119, 11, 161); color: white; padding: 10px; margin-left: 70%;"><strong>FIND YOUR FLIGHT</strong></button><br><br><br><br><br><br><br><br><br>
 
-                <button class="btn btn-default pull-right" style="background-color: rgb(0, 162, 255); color:white; padding: 10px; margin-right: 0%;"><strong style=" padding-right: 10px; ">Chat Now</strong><span class="glyphicon glyphicon-comment "></span></button>
+                <button class="btn btn-default pull-right" style="background-color: rgb(0, 162, 255);  color:white; padding: 10px; margin-right: 0%;"><strong style=" padding-right: 10px; ">Chat Now</strong><span class="glyphicon glyphicon-comment "></span></button>
 
 
             </div>
+
 
         </div>
 
